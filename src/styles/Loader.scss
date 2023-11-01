@@ -1,0 +1,21 @@
+.loader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .spinner {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 252, 252);
+    border-top-color: rgb(240, 84, 84);
+    animation: loader 0.4s infinite;
+  }
+}
+
+@keyframes loader {
+  100% {
+    rotate: 360deg;
+  }
+}
